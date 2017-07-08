@@ -157,7 +157,7 @@ Make something awesome!
 
 ## Origin ##
 
-The production of this boilerplate is greatly inspired by the works of Peter van Meijgaard [GitHub](https://github.com/petervmeijgaard) and extracted from the official <a href="https://github.com/vuejs-templates/webpack">Webpack + VueJs one</a> boilerplate.
+The production of this boilerplate is greatly inspired by the works of [Peter van Meijgaard](https://github.com/petervmeijgaard) and extracted from the official [Webpack + VueJs one](https://github.com/vuejs-templates/webpack) boilerplate.
 
 ## License ##
 
