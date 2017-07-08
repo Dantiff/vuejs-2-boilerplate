@@ -147,21 +147,23 @@ Here you can place handy utils you want to use inside your application.
 
 ## Got questions or improvements? ##
 Feel free to hit me up on:
- - [Gitter](https://gitter.im/petervmeijgaard)
- - [GitHub](https://github.com/petervmeijgaard)
- - [Twitter](https://twitter.com/petervmeijgaard)
+ - [GitHub](https://github.com/Dantiff)
 
-Or create an [issue](https://github.com/petervmeijgaard/vue-2-boilerplate/issues)
+Or create an [issue](https://github.com/Dantiff/vuejs-2-boilerplate/issues)
 
 ## Fork It And Make Your Own ##
 What are you waiting for?!
 Make something awesome!
 
+## Origin ##
+
+The production of this boilerplate is greatly inspired by the works of Peter van Meijgaard [GitHub](https://github.com/petervmeijgaard) and extracted from the official <a href="https://github.com/vuejs-templates/webpack">Webpack + VueJs one</a> boilerplate.
+
 ## License ##
 
 The MIT License (MIT)
 
-Copyright (c) 2016 - 2017 Peter van Meijgaard
+Copyright (c) 2017 Daniel Mburu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
