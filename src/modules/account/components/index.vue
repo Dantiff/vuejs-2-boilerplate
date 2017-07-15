@@ -51,10 +51,5 @@
    * Page where the user can view the account information.
    */
 
-  export default {
-    components: {
-      VLayout: require('@/layouts/default.vue'),
-      VPanel: require('@/components/panel.vue'),
-    },
-  };
+  export default { };
 </script>

@@ -1,8 +1,8 @@
 <template>
-  <v-layout>
+  <v-min-layout class="auth-container">
     <v-panel contextual-style="primary">
       <h1 class="panel-title" slot="heading">
-        Login
+        Register
       </h1>
       <div slot="body">
         <form @submit.prevent="register(user)">
@@ -83,7 +83,7 @@
         <router-link :to="{ name: 'login.index' }">Login</router-link>
       </div>
     </v-panel>
-  </v-layout>
+  </v-min-layout>
 </template>
 
 <script>
@@ -116,9 +116,6 @@
       },
     },
 
-    components: {
-      VLayout: require('@/layouts/minimal.vue'),
-      VPanel: require('@/components/panel.vue'),
-    },
+    components: { },
   };
 </script>

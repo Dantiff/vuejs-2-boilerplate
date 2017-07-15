@@ -117,7 +117,7 @@ Vue.router = router;
  * https://kazupon.github.io/vue-i18n/
  */
 import VueI18n from 'vue-i18n';
-import messages from './locale';
+import messages from './modules/shared/locale';
 
 Vue.use(VueI18n);
 
@@ -179,7 +179,7 @@ require('font-awesome/less/font-awesome.less');
  *
  * http://stylus-lang.com/
  */
-require('./assets/stylus/app.styl');
+require('./app.styl');
 
 
 export default {

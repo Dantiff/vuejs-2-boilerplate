@@ -12,8 +12,8 @@ import Vuex from 'vuex';
 import createLogger from 'vuex/dist/logger';
 
 // Modules
-import account from './modules/account';
-import auth from './modules/auth';
+import account from '.././modules/account/store';
+import auth from '.././modules/auth/store';
 
 Vue.use(Vuex);
 

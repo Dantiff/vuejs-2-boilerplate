@@ -51,9 +51,6 @@
    */
 
   export default {
-    components: {
-      VLayout: require('@/layouts/default.vue'),
-      VPanel: require('@/components/panel.vue'),
-    },
+    components: { },
   };
 </script>

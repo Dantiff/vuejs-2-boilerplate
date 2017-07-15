@@ -1,5 +1,5 @@
 <template>
-  <v-layout>
+  <v-min-layout class="auth-container">
     <v-panel contextual-style="primary">
       <h1 class="panel-title" slot="heading">
         Login
@@ -44,7 +44,7 @@
         <router-link :to="{ name: 'register.index' }">Register</router-link>
       </div>
     </v-panel>
-  </v-layout>
+  </v-min-layout>
 </template>
 
 <script>
@@ -72,9 +72,6 @@
       },
     },
 
-    components: {
-      VLayout: require('@/layouts/minimal.vue'),
-      VPanel: require('@/components/panel.vue'),
-    },
+    components: { },
   };
 </script>

@@ -22,7 +22,7 @@
    * Gives an idea how components work.
    */
 
-  import SlotMixin from '@/mixins/slot';
+  import SlotMixin from '../mixins/slot';
 
   export default {
     mixins: [

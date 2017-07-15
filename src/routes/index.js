@@ -16,7 +16,7 @@ export default [
   {
     path: '/home',
     name: 'home.index',
-    component: require('@/pages/home/index.vue'),
+    component: require('@/modules/shared/components/home.vue'),
 
     // If the user needs to be authenticated to view this page
     meta: {
@@ -28,7 +28,7 @@ export default [
   {
     path: '/account',
     name: 'account.index',
-    component: require('@/pages/account/index.vue'),
+    component: require('@/modules/account/components/index.vue'),
 
     // If the user needs to be authenticated to view this page
     meta: {
@@ -40,7 +40,7 @@ export default [
   {
     path: '/login',
     name: 'login.index',
-    component: require('@/pages/login/index.vue'),
+    component: require('@/modules/auth/components/login.vue'),
 
     // If the user needs to be a guest to view this page
     meta: {
@@ -52,7 +52,7 @@ export default [
   {
     path: '/register',
     name: 'register.index',
-    component: require('@/pages/register/index.vue'),
+    component: require('@/modules/auth/components/register.vue'),
 
     // If the user needs to be a guest to view this page
     meta: {
