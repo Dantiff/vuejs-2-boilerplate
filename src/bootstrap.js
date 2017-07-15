@@ -81,8 +81,13 @@ Vue.use(VueRouter);
 
 export const router = new VueRouter({
   mode: 'history',
+  hashbang: false,
+  linkActiveClass: 'active',
   routes,
 });
+
+router.mode = 'html5';
+
 router.beforeEach((to, from, next) => {
   if (to.matched.some(m => m.meta.auth) && !store.state.auth.authenticated) {
     /*
